@@ -1,0 +1,34 @@
+@extends('layouts.app')
+@section('content')
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-9">
+                <div class="card">
+                    <div class="card-header">Contacts</div>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>fsp_type</th>
+                                        <th> institution_code</th>
+                                        <th> institution_full_name</th>
+                                        <th>institution_name</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                @foreach($details as $item)
+                                    <tr>
+                                        <td>{{ $loop->iteration }}</td>
+                                        <td>{{ $item->name }}</td>
+                                        <td>{{ $item->address }}</td>
+                                        <td>{{ $item->mobile }}</td>
+                                    </tr>
+                                @endforeach
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+@endsection

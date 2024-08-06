@@ -1,0 +1,15 @@
+table.table{
+    width: 100%;
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
+table.table  tr th,table.table  tr td{
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: left;
+}
+
+table.table  tr th{
+   font-size: 9pt;
+}

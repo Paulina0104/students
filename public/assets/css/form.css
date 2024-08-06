@@ -1,0 +1,19 @@
+.select2-container--default .select2-results > .select2-results__options {
+    max-height: 200px;
+    border-color: #2C3D87;
+
+}
+.select2-selection {
+    border-color: #2C3D87;
+
+}
+.form-control {
+
+    border-color: #2C3D87;
+}
+.select6 + .select2-container .select2-selection {
+
+    border-color: #2C3D87;
+}
+
+
